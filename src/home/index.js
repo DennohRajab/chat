@@ -25,8 +25,7 @@ export default function Home() {
     useEffect(() => {
         // Scroll to the bottom of the message container
         //learn more on useRef()
-        //ask brian
-
+     
         if (messageContainerRef.current) {
             messageContainerRef.current.scrollTop = messageContainerRef.current.scrollHeight;
         }
