@@ -1,9 +1,11 @@
 import './App.css';
 import Auth, { x } from './Auth';
+import Home from './home';
 
 function App() {
   return (
-    <Auth />
+    // <Auth />
+    <Home/>
   );
 
 }
